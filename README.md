@@ -19,3 +19,4 @@ _The basic idea is simple and straightforward code that can be supported and sca
 4) Use SingleActivity pattern
 5) Allocate the work with DI into a separate unit
 6) Combined search not only by name
+7) Proguard improvements
