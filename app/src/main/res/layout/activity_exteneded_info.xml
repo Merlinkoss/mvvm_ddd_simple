@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/edge_margin"
         android:layout_marginTop="@dimen/line_spacing_margin"
-        android:text="Country:"
+        android:text="@string/country"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/countryFlag"/>
 
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/edge_margin"
         android:layout_marginTop="@dimen/line_spacing_margin"
-        android:text="Capital:"
+        android:text="@string/capital"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/countryName"/>
 
