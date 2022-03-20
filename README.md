@@ -1,7 +1,7 @@
-The classic MVVM + DDD architecture
-K.Coroutines is used as thread processing
-Unit tests, also included
-Business logic in atomic entities - UseCase
+The classic MVVM + DDD architecture  
+K.Coroutines is used as thread processing  
+Unit tests, also included  
+Business logic in atomic entities - UseCase  
 
 _The basic idea is simple and straightforward code that can be supported and scaled by any developer._
 
