@@ -7,7 +7,7 @@ _The basic idea is simple and straightforward code that can be supported and sca
 
 ## Assumptions:
 1) Fragments and navigation are not used - over-engineering for this task
-2) Database is not used
+2) Database is not used - over-engineering for this task
 3) A base theme from the application template is used
 4) Refusal of integration testing because of the simplicity of the task
 5) Primitive junit test for converters
