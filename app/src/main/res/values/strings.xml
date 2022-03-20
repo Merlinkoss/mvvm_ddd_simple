@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">anton_kondratiuk</string>
+    <string name="error_message">Error</string>
+    <string name="loading_message">Loading</string>
+    <string name="country">Country:</string>
+    <string name="capital">Capital:</string>
+    <string name="error_message_try_again">Something went wrong. Try again!</string>
+    <string name="error_message_back_and_try_again">Something went wrong. Go back and try again!</string>
+</resources>

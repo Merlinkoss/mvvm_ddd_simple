@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/edge_margin"
+    android:paddingEnd="@dimen/edge_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:elevation="1dp"
+            android:id="@+id/countrySearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edge_margin"
+            app:iconifiedByDefault="false"/>
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/countryLoadingView"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/line_spacing_margin"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/countryRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/line_spacing_margin"
+            android:overScrollMode="never"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="line_spacing_margin">24dp</dimen>
+    <dimen name="edge_margin">16dp</dimen>
+</resources>
